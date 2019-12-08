@@ -1,0 +1,11 @@
+﻿<Application x:Class="SolarMinecraftServerManger.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SolarMinecraftServerManger"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary Source="Resource\Lang\en-US.xaml"></ResourceDictionary>
+        <ResourceDictionary Source="Resource\Lang\zh-CN.xaml"></ResourceDictionary>
+        <ResourceDictionary Source="Resource\Lang\zh-TW.xaml"></ResourceDictionary>
+    </Application.Resources>
+</Application>
